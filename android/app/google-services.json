@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "968438153424",
+    "project_id": "tcc-app-solar",
+    "storage_bucket": "tcc-app-solar.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968438153424:android:f77bb6b21849d7268b9ed5",
+        "android_client_info": {
+          "package_name": "com.example.tcc_app_solar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH7VxCwj-D0OCdjmNXz3thxrD1kNT1uNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
