@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
 import '../services/auth_service.dart';
 import 'login_page.dart';
+import 'client_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -51,6 +51,11 @@ class HomePage extends StatelessWidget {
                 title: const Text('Cliente'),
                 onTap: () {
                   Navigator.pop(context);
+
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (_) => const ClientPage()),
+                  );
                 },
               ),
 
