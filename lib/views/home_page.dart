@@ -4,6 +4,7 @@ import 'login_page.dart';
 import 'client_page.dart';
 import 'project_register_page.dart';
 import 'project_page.dart';
+import 'sizing_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -83,6 +84,13 @@ class HomePage extends StatelessWidget {
                 title: const Text('Dimensionamento'),
                 onTap: () {
                   Navigator.pop(context);
+
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const SizingPage(),
+                    ),
+                  );
                 },
               ),
 
