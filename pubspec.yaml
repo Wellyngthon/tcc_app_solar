@@ -37,6 +37,8 @@ dependencies:
   firebase_core: ^4.9.0
   cloud_firestore: ^6.4.1
   firebase_auth: ^6.6.1
+  pdf: ^3.13.1
+  printing: ^5.15.1
 
 dev_dependencies:
   flutter_test:

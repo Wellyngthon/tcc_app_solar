@@ -5,6 +5,7 @@ import 'client_page.dart';
 import 'project_register_page.dart';
 import 'project_page.dart';
 import 'sizing_page.dart';
+import 'report_page.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -96,10 +97,17 @@ class HomePage extends StatelessWidget {
 
               // Relatório
               ListTile(
-                leading: const Icon(Icons.description),
+                leading: const Icon(Icons.picture_as_pdf_outlined),
                 title: const Text('Relatório'),
                 onTap: () {
                   Navigator.pop(context);
+
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (_) => const ReportPage(),
+                    ),
+                  );
                 },
               ),
 
